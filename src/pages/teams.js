@@ -8,7 +8,7 @@ import { team } from "components/teamData/teamData";
 import { useRouter } from "next/router";
 
 export default function teams() {
- const router = useRouter
+ const router = useRouter()
 
   return (
     <Layout>
